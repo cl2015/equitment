@@ -6,7 +6,7 @@
 	<!-- Le styles -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/docs.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="./css/excite-bike/jquery-ui-1.10.2.custom.min.css" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -61,7 +61,9 @@
 							  <dt>其他</dt>
 							  <dd><p class="alert-info">abc<br/>abc</p></dd>
 							</dl>
+							<div class="span5" id="datepicker"></div>
 						</div>
+						<div class="span5"></div>
 					</div>
 					<div class="row">
 							<div class="span12 navbar lee" style="background-color:#fff"  data-spy="affix" data-offset-top="460">
@@ -212,6 +214,7 @@
     <script src="./js/bootstrap-alert.js"></script>
     <script src="./js/bootstrap-modal.js"></script>
     <script src="./js/bootstrap-dropdown.js"></script>
+    <script src="./js/jquery-ui-1.8.23.custom.min.js"></script>
     <script src="./js/bootstrap-scrollspy.js"></script>
     <script src="./js/bootstrap-tab.js"></script>
     <script src="./js/bootstrap-tooltip.js"></script>
@@ -221,5 +224,10 @@
     <script src="./js/bootstrap-carousel.js"></script>
     <script src="./js/bootstrap-typeahead.js"></script>
     <script src="./js/bootstrap-affix.js"></script>
+    <script>
+    $(function() {
+        $( "#datepicker" ).datepicker();
+      });
+    </script>
 </body>
 </html>
